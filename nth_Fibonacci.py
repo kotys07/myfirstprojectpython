@@ -11,4 +11,4 @@ def Fibonacci(n):
         return Fibonacci(n - 1) + Fibonacci(n - 2)
 
     # Driver Program
-print(Fibonacci(9))
+print(Fibonacci(5))

@@ -1,4 +1,4 @@
-kolada = [6,7,8,9,10,11] * 4
+kolada = [ 6,7,8,9,10,11] * 4
 
 import random
 random.shuffle(kolada)
@@ -16,7 +16,7 @@ while True:
          print("Вам попалась карта %d" %current)
          count += current
          if count > 21:
-             print("Ви програли %d очків" %count)
+             print("Ви програли у вас %d очки" %count)
              break
          elif count == 21:
              print("У вас 21 очко,Поздоровляю!!!")

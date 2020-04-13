@@ -5,7 +5,7 @@ def fibonacci():
         a, b = b, a + b
 
 gen = fibonacci()
-for i in range(100000):
+for i in range(10):
     print(next(gen))
 
 
